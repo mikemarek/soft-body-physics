@@ -2,9 +2,9 @@
 
 A 2D physics simulation to implement the motion and properties of deformable objects (soft bodies).
 
-![Square](./img/square.gif =300x225 "Deformable Square")
-![Rope](./img/rope.gif =300x225 "Simulated Rope")
-![Cloth](./img/cloth.gif =300x225 "Simulated Cloth")
+<img src="./img/square.gif" width="300" height="225" />
+<img src="./img/rope.gif" width="300" height="225" />
+<img src="./img/cloth.gif" width="300" height="225" />
 
 ## Installation
 
