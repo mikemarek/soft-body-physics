@@ -67,7 +67,7 @@ class DemoSpringBoard(App):
 
 
 if __name__ == "__main__":
-    print "Starting..."
+    print("Starting...")
     app = DemoSpringBoard("Spring Board", 640, 480, 30)
     app.Run()
-    print "Ending..."
+    print("Ending...")

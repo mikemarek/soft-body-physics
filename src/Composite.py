@@ -26,7 +26,7 @@ class Composite:
                 self.particles.append(param)
             elif isinstance(param, Constraint):
                 self.constraints.append(param)
-            print len(self.particles)
+            print(len(self.particles))
 
 
     # Add an arbitrary number of particles to this shape.

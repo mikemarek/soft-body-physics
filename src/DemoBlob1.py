@@ -104,7 +104,7 @@ class DemoBlob(App):
 
 
 if __name__ == "__main__":
-    print "Starting..."
+    print("Starting...")
     app = DemoBlob("Loco Roco", 640, 480, 30)
     app.Run()
-    print "Ending..."
+    print("Ending...")

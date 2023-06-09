@@ -53,7 +53,7 @@ class App:
                 self.HandleEvent(event)
             self.Update()
             self.Render()
-            game.time.delay(1000 / self.framerate)
+            game.time.delay(int(1000 / self.framerate))
         self.CleanUp()
 
 
