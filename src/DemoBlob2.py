@@ -36,8 +36,8 @@ class DemoBlob(App):
         for i in range(1, steps):
             kinex.append(self.world.AddConstraint(outer[i-1], outer[i], k))
         kinex.append(self.world.AddConstraint(outer[len(outer)-1], outer[0], k))
-        for i in range(steps / 2):
-            to = i + steps / 2
+        for i in range(steps // 2):
+            to = i + steps // 2
             if to >= steps:
                 to -= steps
             kinex.append(self.world.AddConstraint(outer[i], outer[to], k))
@@ -93,7 +93,7 @@ class DemoBlob(App):
 
 
 if __name__ == "__main__":
-    print "Starting..."
+    print("Starting...")
     app = DemoBlob("Loco Roco", 640, 480, 30)
     app.Run()
-    print "Ending..."
+    print("Ending...")

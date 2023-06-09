@@ -99,30 +99,30 @@ class Vector:
 
     #
     def __mul__(self, other):
-        assert type(other) in (int, long, float)
+        assert type(other) in (int, float)
         return Vector(self.x * other, self.y * other)
 
     #
     def __rmul__(self, other):
-        assert type(other) in (int, long, float)
+        assert type(other) in (int, float)
         return Vector(self.x * other, self.y * other)
 
     #
     def __imul__(self, other):
-        assert type(other) in (int, long, float)
+        assert type(other) in (int, float)
         self.x *= other
         self.y *= other
         return self
 
     #
-    def __div__(self, other):
-        assert type(other) in (int, long, float)
-        return Vector(operator.div(self.x, other),
-                      operator.div(self.y, other))
+    def __truediv__(self, other):
+        assert type(other) in (int, float)
+        return Vector(self.x / other,
+                      self.y / other)
 
     #
     def __idiv__(self, other):
-        assert type(other) in (int, long, float)
+        assert type(other) in (int, float)
         operator.div(self.x, other)
         operator.div(self.y, other)
         return self

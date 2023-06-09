@@ -90,7 +90,7 @@ class DemoRope(App):
 
 
 if __name__ == "__main__":
-    print "Starting..."
+    print("Starting...")
     app = DemoRope("Swinging Rope", 640, 480, 30)
     app.Run()
-    print "Ending..."
+    print("Ending...")

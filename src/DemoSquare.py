@@ -83,9 +83,9 @@ class DemoSquare(App):
 
 #
 if __name__ == "__main__":
-    print "Starting..."
+    print("Starting...")
     #
     app = DemoSquare("Square", 640, 480, 30)
     app.Run()
     #
-    print "Ending..."
+    print("Ending...")
